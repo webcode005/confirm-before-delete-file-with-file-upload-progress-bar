@@ -95,17 +95,7 @@
                             <th>Download</th>
                             <th>Delete</th>
 						</tr>
-					</thead>
-
-					<tfoot>
-						<tr>
-							<th>#</th>
-							<th>File Name</th>
-                            <th>Upload Date</th>
-                            <th>Download</th>
-                            <th>Delete</th>
-						</tr>
-					</tfoot>
+					</thead>			
 
 					<tbody>
 					   
@@ -139,6 +129,17 @@
 						<?php } } else { echo'<tr> <td colspan="3" style="text-align: center;color: red;font-size: 20px;">File Not Found!</td> </tr>'; } ?>
                          
 					</tbody>
+
+                    <tfoot>
+						<tr>
+							<th>#</th>
+							<th>File Name</th>
+                            <th>Upload Date</th>
+                            <th>Download</th>
+                            <th>Delete</th>
+						</tr>
+					</tfoot>
+
 				</table>
 
 	<script type="text/javascript">
